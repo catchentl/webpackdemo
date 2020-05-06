@@ -20,3 +20,10 @@ npx webpack-dev-server  或者 npm run dev
 安装html插件：npm install html-webpack-plugin -D
 安装css: npm install css-loader style-loader -D
 安装less: npm install less less-loader
+
+抽离css插件安装：npm install mini-css-extract-plugin -D
+
+npm install postcss-loader autoprefixer -D
+npm install optimize-css-assets-webpack-plugin -D
+npm install uglifyjs-webpack-plugin -D
+
